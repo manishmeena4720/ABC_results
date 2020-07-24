@@ -252,9 +252,7 @@ table td{width:25%}
     }
 }
 @media(min-width: 575px) and (max-width:767px){
-    #hand{
-        background-color: saddlebrown;
-    }
+    
     .navbar li{
         width:50px;
         font-size: 10px;
