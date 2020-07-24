@@ -1,3 +1,4 @@
+html,body{overflow-x: hidden;}
 body{font-family: 'Trebuchet MS',Helvetica, sans-serif;width:100%;margin-top: -10px;}
 #header{height:150px;width:1150px;background-color:rgb(79, 131, 235);margin-top:5px;border:1px solid rgb(147, 175, 231)}
 #head-title{padding-top:40px;font-weight:700;font-size:45px;color:#fff}
@@ -122,6 +123,9 @@ table td{width:25%}
     }
 }
 @media(min-width: 768px) and (max-width:991px){
+    body{
+        margin-left: 25%;
+    }
     #header-div{
         width: 100%;
     }
@@ -244,19 +248,12 @@ table td{width:25%}
         overflow-wrap: break-word;
     }
     #hand{
-        margin-left: 0px!important;
-        float:right;
-        position: relative;
-        right: -90px;
+        width: 950%;
     }
 }
 @media(min-width: 575px) and (max-width:767px){
-    
     #hand{
-        margin-left: 0px!important;
-        float:right;
-        position: relative;
-        right: 0px;
+        background-color: saddlebrown;
     }
     .navbar li{
         width:50px;
@@ -378,7 +375,7 @@ table td{width:25%}
 }
 @media(min-width: 480px) and (max-width:574px){
     body{
-        background-color: green;
+        margin-left: 25%;
     }
     #hand{
         margin-left: 0px!important;
@@ -512,6 +509,9 @@ table td{width:25%}
     }
 }
 @media(max-width:479px){
+    body{
+        margin-left: 25%;
+    }
     .navbar li{
         width:50px;
         font-size: 10px;
