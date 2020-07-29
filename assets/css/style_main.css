@@ -5,7 +5,7 @@ body{font-family: 'Trebuchet MS',Helvetica, sans-serif;width:100%;margin-top: -1
 #heading{background-color:rgb(79, 131, 235);height:35px;color:#fff;font-weight:700;font-size:25px}
 .blog-head{background-color:rgb(79, 131, 235);height:35px;color:#fff;font-weight:700;font-size:36px}
 #menu ul{list-style-type:none;margin:0;padding:0;width:75%;margin-top:-1px}
-#menu ul li{display:inline;float:left;background-color:rgb(147, 175, 231);height:40px}
+#menu ul li{display:inline;float:left;background-color:white;height:40px}
 #menu ul li{display:inline;float:left;display:block;}
 #menu ul li a{display:block;width:126px;color:#fff;padding-top:0px}
 #box1{height:800px;width:300px;border:1px;border-style:groove;border-color:#360;background-color:#fff;border:2px solid #d2691e}
@@ -17,7 +17,7 @@ margin-bottom: 20px;}
 table td{width:25%}
 #post ul li a{line-height:1.8px}
 #marquee1{width:75%;height: auto;}
-#marquee1 marquee{;
+#marquee1 marquee{
     height: 47px;
 }
 #marquee1 marquee a{
@@ -35,14 +35,15 @@ table td{width:25%}
 #image6{height:60px;width:245px;background-color:#0b610b;font-size:20px;color:#fff;font-weight:700;border-radius: 15px;}
 #image6 a{height:60px;width:245px;background-color:#0b610b;font-size:20px;color:#fff;font-weight:700;text-decoration:none}
 #video1{height:120px;margin-top: 0px;border-radius: 15px;margin-top: 5px;}
-#facebook{align:center;border:1px groove;width:70%;height:37px;width:350px;background-color:#0000e9;font-size:x-large;font-color:#fff;font-weight:700;border-radius: 4px;}
+#facebook{align:center;border:1px groove;width:100%;height:37px;width:350px;background-color:#0000e9;font-size:x-large;font-color:#fff;font-weight:700;border-radius: 4px;}
+#telegram{align:center;border:1px groove;width:100%;height:37px;width:350px;background-color:rgb(79, 131, 235);font-size:x-large;font-color:#fff;font-weight:700;border-radius: 4px;}
 #view{padding-top:4px;font-size:18px;font-weight:700;color:#0000a0}
 #view a{padding-top:4px;font-size:18px;font-weight:700;margin-left:180px;color:#0000a0;text-decoration:none}
 #matter{color:red;font-size:17px;text-align:center}
-#wrap{width:75%;height:50px;margin:0;z-index:99;position:relative;background-color:rgb(147, 175, 231)}
+#wrap{width:75%;height:50px;margin:0;z-index:99;position:relative;background-color:white}
 .navbar{width:100%;height:50px;padding:0;margin:0;position:absolute;border-right:1px solid #54879d}
-.navbar li{height:50px;width:140px;border-left:1px solid #fff;border-right:1px solid rgb(147, 175, 231);float:left;text-align:center;list-style:none;font:normal bold 14px/1.2em 'Trebuchet MS',Helvetica, sans-serif;padding:0;margin:0;background-color:rgb(147, 175, 231)}
-.navbar a{padding:0px;margin-top: 20px;text-decoration:none;color:#fff;display:block}
+.navbar li{height:50px;width:140px;border-left:1px solid #fff;border-right:1px solid rgb(147, 175, 231);float:left;text-align:center;list-style:none;font:normal bold 14px/1.2em 'Trebuchet MS',Helvetica, sans-serif;padding:0;margin:0;background-color:white;}
+.navbar a{padding:0px;margin-top: 20px;text-decoration:none;color:black;display:block}
 .navbar li ul{display:none;height:auto;margin:0;padding:0;color:#fff}
 .navbar li:hover ul{display:block}
 .navbar li ul li{background-color:rgb(147, 175, 231);height:55px;margin-top:-8px}
@@ -101,10 +102,10 @@ table td{width:25%}
     margin-bottom: 10px;
 }
 .head-td h2{
-    background-color: rgb(147, 175, 231);
+    border: solid 2px rgb(79, 131, 235);
     border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
 }
 .more{
     color: blue;
@@ -125,6 +126,9 @@ table td{width:25%}
 @media(min-width: 768px) and (max-width:991px){
     body{
         margin-left: 25%;
+    }
+    .blog-main-div{
+        margin-left: 170px!important;
     }
     #header-div{
         width: 100%;
@@ -225,9 +229,9 @@ table td{width:25%}
         font-size: 30px;
     }
     #right_column{
-        margin-left: -700px;
+        margin-left: 0px;
         margin-top: 20px;
-        width: 400px;
+        width: 60%!important;
     }
     #right_column h2{
         font-size: 30px;
@@ -248,11 +252,12 @@ table td{width:25%}
         overflow-wrap: break-word;
     }
     #hand{
-        width: 950%;
+        margin-left: 170%;
+        width:200px;
+        text-align: center;
     }
 }
 @media(min-width: 575px) and (max-width:767px){
-    
     .navbar li{
         width:50px;
         font-size: 10px;
@@ -347,7 +352,7 @@ table td{width:25%}
         font-size: 20px;
     }
     #right_column{
-        margin-left: -600px;
+        margin-left: 00px;
         margin-top: -20px;
         width: 400px;
     }
@@ -363,7 +368,6 @@ table td{width:25%}
         font-size: 15px!important;
     }
     .head-td h2{
-        background-color: rgb(147, 175, 231);
         border-radius: 20px;
     }
     .head-td h2 b{
@@ -382,7 +386,6 @@ table td{width:25%}
         right: 0px;
     }
     .head-td h2{
-        background-color: rgb(147, 175, 231);
         border-radius: 20px;
     }
     .head-td h2 b{
